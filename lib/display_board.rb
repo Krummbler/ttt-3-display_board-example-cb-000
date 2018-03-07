@@ -1,10 +1,4 @@
-# Define a method display_board that putss a 3x3 Tic Tac Toe Board
-def display_board
-  puts "   |   |   "
-  puts "-----------"
-  puts "   |   |   "
-  puts "-----------"
-  puts "   |   |   "
-end
+def greetings_programmer(name, language)
+  puts "greetings #{name}, we hear you are well on your way towards learning #{language}."
 
-display_board
+  greetings_programmer
